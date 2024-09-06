@@ -19,6 +19,7 @@ export default {
         "darkmode-primary": "#86c1df",
         "darkmode-secondary": "#176389",
         "darkmode-accent": "#3eb4f0",
+        "darkmode-light-blue": "#3590F3",
         "lightmode-text": "#081217",
         "lightmode-background": "#e8f2f8",
         "lightmode-primary": "#205b79",
