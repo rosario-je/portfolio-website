@@ -2,6 +2,7 @@ import "./App.css";
 import MainNavbar from "./assets/Components/MainNavbar";
 import { About } from "./assets/Pages/About";
 import { Landing } from "./assets/Pages/Landing";
+import { Projects } from "./assets/Pages/Projects";
 import { Skills } from "./assets/Pages/Skills";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Landing />
         <About />
         <Skills />
+        <Projects />
       </div>
     </div>
   );
