@@ -1,10 +1,8 @@
-import MainNavbar from "../Components/MainNavbar";
-
 export const Landing = () => {
+
   return (
     <div>
-      <MainNavbar />
-      <div className="landing-info flex flex-col-reverse lg:flex-row my-32">
+      <div className="landing-info flex flex-col-reverse lg:flex-row pb-20 h-screen justify-center gap-y-10">
         <div className="personal-intro flex flex-col">
           <p className="text-darkmode-text font-opensans font-light text-center">
             Hi, my name is
@@ -13,7 +11,8 @@ export const Landing = () => {
             Jose E. Payamps
           </h1>
           <h2 className="text-darkmode-text font-semibold font-opensans text-center">
-            I am a <span className="text-darkmode-accent">Software Developer</span>
+            I am a{" "}
+            <span className="text-darkmode-accent">Software Developer</span>
           </h2>
           <p className="text-darkmode-text font-light font-opensans pt-[20px] text-center">
             I thrive on crafting software solutions from ideation to execution.
