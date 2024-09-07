@@ -22,24 +22,35 @@ export const About = () => {
             opportunities to enhance my skills as a developer.
           </p>
           <div className="flex flex-row justify-between items-center py-3">
-            <button className="border-[1px] rounded-lg p-1">
-              <span className="text-darkmode-text">Resume</span>
-            </button>
-            <FontAwesomeIcon
-              className="text-4xl"
-              icon={faGithub}
-              style={{ color: "#FFFFFF" }}
-            />
-            <FontAwesomeIcon
-              className="text-4xl"
-              icon={faLinkedin}
-              style={{ color: "#FFFFFF" }}
-            />
-            <FontAwesomeIcon
-              className="text-4xl"
-              icon={faEnvelope}
-              style={{ color: "#FFFFFF" }}
-            />
+            <a
+              href="https://drive.google.com/file/d/1cqgLDZVvhIQg2qwP2MQpxqDMuph3nJwh/view?usp=sharing"
+              target="_blank"
+            >
+              <button className="btn btn-outline hover:bg-darkmode-light-blue">
+                <span className="text-darkmode-text">Resume</span>
+              </button>
+            </a>
+            <a href="https://github.com/rosario-je/" target="_blank">
+              <FontAwesomeIcon
+                className="text-4xl"
+                icon={faGithub}
+                style={{ color: "#FFFFFF" }}
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/joseeduardopayamps/">
+              <FontAwesomeIcon
+                className="text-4xl"
+                icon={faLinkedin}
+                style={{ color: "#FFFFFF" }}
+              />
+            </a>
+            <a href="mailto:jose.payampsrosario@outlook.com">
+              <FontAwesomeIcon
+                className="text-4xl"
+                icon={faEnvelope}
+                style={{ color: "#FFFFFF" }}
+              />
+            </a>
           </div>
         </div>
         <div className="about-info-imgs flex flex-col gap-y-5 items-center pt-5">
