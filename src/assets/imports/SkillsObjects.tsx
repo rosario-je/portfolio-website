@@ -2,42 +2,50 @@ export const technicalSkills = [
   {
     id: 1,
     skillName: "HTML5",
-    skillNameLogoPath: "logopath",
+    skillNameLogoPath: "/icons/techSkills/Html5.png",
+    skill: 'tech'
   },
   {
     id: 2,
     skillName: "JavaSript",
-    skillNameLogoPath: "logopath",
+    skillNameLogoPath: "/icons/techSkills/JavaScript.png",
+    skill: 'tech'
   },
   {
     id: 3,
     skillName: "ReactJS",
-    skillNameLogoPath: "logopath",
+    skillNameLogoPath: "/icons/techSkills/React.png",
+    skill: 'tech'
   },
   {
     id: 4,
     skillName: "TailwindCSS",
-    skillNameLogoPath: "logopath",
+    skillNameLogoPath: "/icons/techSkills/Tailwind.png",
+    skill: 'tech'
   },
   {
     id: 5,
     skillName: "NodeJS",
-    skillNameLogoPath: "logopath",
+    skillNameLogoPath: "/icons/techSkills/NodeJS.png",
+    skill: 'tech'
   },
   {
     id: 6,
     skillName: "PostgreSQL",
-    skillNameLogoPath: "logopath",
+    skillNameLogoPath: "/icons/techSkills/PostgreSQL.png",
+    skill: 'tech'
   },
   {
     id: 7,
     skillName: "ExpressJS",
-    skillNameLogoPath: "logopath",
+    skillNameLogoPath: "/icons/techSkills/ExpressJS.png",
+    skill: 'tech'
   },
   {
     id: 8,
     skillName: "Ruby on Rails",
-    skillNameLogoPath: "logopath",
+    skillNameLogoPath: "/icons/techSkills/RubyRails.png",
+    skill: 'tech'
   },
 ];
 
@@ -45,31 +53,37 @@ export const softSkills = [
   {
     id: 1,
     skillName: "Communication",
-    skillNameLogoPath: "logoPath",
+    skillNameLogoPath: "/icons/softSkills/Communication.png",
+    skill: 'soft'
   },
   {
     id: 2,
     skillName: "Collaboration",
-    skillNameLogoPath: "logoPath",
+    skillNameLogoPath: "/icons/softSkills/colab.png",
+    skill: 'soft'
   },
   {
     id: 3,
     skillName: "Adaptability",
-    skillNameLogoPath: "logoPath",
+    skillNameLogoPath: "/icons/softSkills/adapt.png",
+    skill: 'soft'
   },
   {
     id: 4,
     skillName: "Time Management",
-    skillNameLogoPath: "logoPath",
+    skillNameLogoPath: "/icons/softSkills/time.png",
+    skill: 'soft'
   },
   {
     id: 5,
     skillName: "Problem Solving",
-    skillNameLogoPath: "logoPath",
+    skillNameLogoPath: "/icons/softSkills/problemsolve.png",
+    skill: 'soft'
   },
   {
     id: 6,
     skillName: "Creativity",
-    skillNameLogoPath: "logoPath",
+    skillNameLogoPath: "/icons/softSkills/creative.png",
+    skill: 'soft'
   },
 ];
