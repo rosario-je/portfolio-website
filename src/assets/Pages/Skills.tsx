@@ -41,6 +41,7 @@ export const Skills = () => {
                 id={skill.id}
                 skillName={skill.skillName}
                 skillLogoPath={skill.skillNameLogoPath}
+                skill={skill.skill}
               />
             );
           }
