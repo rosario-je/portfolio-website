@@ -23,7 +23,7 @@ export const About = () => {
           </p>
           <div className="flex flex-row justify-between items-center py-3">
             <a
-              href="https://drive.google.com/file/d/1cqgLDZVvhIQg2qwP2MQpxqDMuph3nJwh/view?usp=sharing"
+              href="https://drive.google.com/file/d/1479NLcaFTsl6MkmnyxPF0rasCC2DlSH_/view?usp=sharing"
               target="_blank"
             >
               <button className="btn btn-outline hover:bg-darkmode-light-blue">
