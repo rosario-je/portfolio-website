@@ -1,8 +1,7 @@
 export const Landing = () => {
-
   return (
     <div>
-      <div className="landing-info flex flex-col-reverse lg:flex-row pb-20 h-screen justify-center gap-y-10">
+      <div className="landing-info flex flex-col-reverse lg:flex-row pb-20 h-screen justify-center gap-y-10 lg:items-center">
         <div className="personal-intro flex flex-col">
           <p className="text-darkmode-text font-opensans font-light text-center">
             Hi, my name is
@@ -21,8 +20,12 @@ export const Landing = () => {
             solutions that create a better user experience.
           </p>
         </div>
-        <div className="head-shot mask mask-hexagon bg-gray-900 ">
-          <img className="px-12" src="jose.png" alt="jose-headshot" />
+        <div className="head-shot">
+          <img
+            className="px-12 mask mask-hexagon bg-gray-900 "
+            src="jose.png"
+            alt="jose-headshot"
+          />
         </div>
       </div>
     </div>
