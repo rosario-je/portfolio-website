@@ -9,7 +9,7 @@ import { Skills } from "./assets/Pages/Skills";
 function App() {
   return (
     <div className="bg-darkmode-background">
-      <div className="xl:mx-[300px] md:mx-[150px] sm:mx-[75px] mx-[20px] bg-darkmode-background">
+      <div className="xl:mx-[300px] md:mx-[150px] sm:mx-[75px] mx-[20px] bg-darkmode-background scroll-smooth">
         <MainNavbar />
         <Landing />
         <About />
