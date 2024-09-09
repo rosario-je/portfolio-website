@@ -1,6 +1,6 @@
 export const Landing = () => {
   return (
-    <div>
+    <div id="home" className="min-h-screen">
       <div className="landing-info flex flex-col-reverse lg:flex-row pb-20 h-screen justify-center gap-y-10 lg:items-center">
         <div className="personal-intro flex flex-col">
           <p className="text-darkmode-text font-opensans font-light text-center lg:text-start">

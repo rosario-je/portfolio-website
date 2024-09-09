@@ -7,7 +7,7 @@ library.add(faGithub, faLinkedin, faEnvelope);
 
 export const Contact = () => {
   return (
-    <section className="flex flex-col justify-center items center h-screen">
+    <section className="flex flex-col justify-center items center h-screen min-h-screen" id="contact" >
       <h1 className="font-opensans font-bold text-center text-darkmode-light-blue text-3xl pb-10 lg:text-left">
         Lets Connect!
       </h1>
