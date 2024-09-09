@@ -12,7 +12,7 @@ export const Contact = () => {
         Lets Connect!
       </h1>
       <div className="links flex flex-col items-center gap-y-5 lg:flex-row lg:justify-between">
-        <a href="https://www.linkedin.com/in/joseeduardopayamps/" target="_blank" className="transition ease-in-out delay-150 hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">
+        <a href="https://www.linkedin.com/in/joseeduardopayamps/" target="_blank" className="transition ease-in-out delay-150 hover:shadow-[0px_0px_116px_-25px_#3eb4f0]">
           <div className="w-48 h-48 bg-darkmode-secondary flex justify-center items-center">
             <FontAwesomeIcon
               className="text-4xl"
@@ -21,7 +21,7 @@ export const Contact = () => {
             />
           </div>
         </a>
-        <a href="https://github.com/rosario-je/" target="_blank" className="transition ease-in-out delay-150 hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">
+        <a href="https://github.com/rosario-je/" target="_blank" className="transition ease-in-out delay-150 hover:shadow-[0px_0px_116px_-25px_#3eb4f0]">
           <div className="w-48 h-48 bg-darkmode-secondary flex justify-center items-center">
             <FontAwesomeIcon
               className="text-4xl"
@@ -30,7 +30,7 @@ export const Contact = () => {
             />
           </div>
         </a>
-        <a href="mailto:jose.payampsrosario@outlook.com" target="_blank" className="transition ease-in-out delay-150 hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">
+        <a href="mailto:jose.payampsrosario@outlook.com" target="_blank" className="transition ease-in-out delay-150 hover:shadow-[0px_0px_116px_-25px_#3eb4f0]">
           <div className="w-48 h-48 bg-darkmode-secondary flex justify-center items-center">
             <FontAwesomeIcon
               className="text-4xl"
