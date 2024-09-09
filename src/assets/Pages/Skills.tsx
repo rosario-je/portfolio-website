@@ -11,7 +11,7 @@ export const Skills = () => {
   };
 
   return (
-    <section className="skills-section h-screen flex flex-col justify-center">
+    <section className="skills-section h-screen flex flex-col justify-center min-h-screen" id="skills">
       <div className="buttons flex justify-around mb-4">
         <button
           className={`btn btn-outline sticky w-1/3 ${

@@ -3,7 +3,7 @@ import { projectsArray } from "../imports/ProjectsObjects";
 
 export const Projects = () => {
   return (
-    <section className="flex flex-col justify-center items center">
+    <section className="flex flex-col justify-center items center min-h-screen" id="work">
       <h1 className="font-opensans font-bold text-center text-darkmode-light-blue text-3xl pb-10">
         Some projects i have worked on:
       </h1>
