@@ -8,7 +8,7 @@ library.add(faGithub, faLinkedin, faEnvelope);
 export const About = () => {
   return (
     <div id="about">
-      <div className="about-info flex flex-col justify-center lg:h-screen min-h-screen" >
+      <div className="about-info flex flex-col justify-center lg:h-screen min-h-screen">
         <div className="about-info-details">
           <h2 className="text-darkmode-accent font-bold font-opensans text-center text-[40px] lg:text-start">
             About me
@@ -25,30 +25,37 @@ export const About = () => {
             <a
               href="https://drive.google.com/file/d/1479NLcaFTsl6MkmnyxPF0rasCC2DlSH_/view?usp=sharing"
               target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline text-darkmode-primary hover:bg-darkmode-light-blue"
             >
-              <button className="btn btn-outline hover:bg-darkmode-light-blue">
-                <span className="text-darkmode-text">Resume</span>
-              </button>
+              <span className="text-darkmode-text">Resume</span>
             </a>
-            <a href="https://github.com/rosario-je/" target="_blank">
+            <a
+              href="https://github.com/rosario-je/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Github"
+            >
               <FontAwesomeIcon
-                className="text-4xl"
+                className="text-4xl text-white"
                 icon={faGithub}
-                style={{ color: "#FFFFFF" }}
               />
             </a>
-            <a href="https://www.linkedin.com/in/joseeduardopayamps/">
+            <a
+              href="https://www.linkedin.com/in/joseeduardopayamps/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
               <FontAwesomeIcon
-                className="text-4xl"
+                className="text-4xl text-white"
                 icon={faLinkedin}
-                style={{ color: "#FFFFFF" }}
               />
             </a>
-            <a href="mailto:jose.payampsrosario@outlook.com">
+            <a href="mailto:jose.payampsrosario@outlook.com" aria-label="Email">
               <FontAwesomeIcon
-                className="text-4xl"
+                className="text-4xl text-white"
                 icon={faEnvelope}
-                style={{ color: "#FFFFFF" }}
               />
             </a>
           </div>
@@ -57,17 +64,17 @@ export const About = () => {
           <img
             className="w-56 border-2 border-darkmode-secondary rounded-3xl lg:w-1/5"
             src="/about/coding-buddy.png"
-            alt="bobby coding"
+            alt="A person coding with a buddy"
           />
           <img
             className="border-2 border-darkmode-secondary rounded-3xl lg:w-1/3"
             src="/about/jose-coding.png"
-            alt="jose coding during bootcamp"
+            alt="Jose coding during bootcamp"
           />
           <img
             className="w-56 border-2 border-darkmode-secondary rounded-3xl lg:w-1/5"
             src="/about/coding-cafe.png"
-            alt="coding at a bubble tea place"
+            alt="Coding at a bubble tea place"
           />
         </div>
       </div>
