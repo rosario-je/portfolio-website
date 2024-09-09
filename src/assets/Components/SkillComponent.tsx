@@ -1,4 +1,5 @@
 import React from "react";
+import { Tooltip } from "@nextui-org/react";
 
 //Sets the template for what the props will be
 interface SkillProps {
@@ -12,26 +13,25 @@ interface SkillProps {
 //as a blueprint
 export const Skill: React.FC<SkillProps> = (props) => {
   return (
-    <div
-      className="tooltip tooltip-top w-32 h-32 bg-darkmode-primary rounded-2xl border-4 border-darkmode-accent hover:border-darkmode-secondary flex justify-center items-center lg:w-44 lg:h-44"
-      data-tip={props.skillName}
-    >
-      <div className="flex flex-col items-center">
-        {props.skill == "tech" ? (
-          <img
-            className="w-20"
-            src={props.skillLogoPath}
-            alt="technology_icon"
-          />
-        ) : (
-          <img
-            className="w-8 relative "
-            src={props.skillLogoPath}
-            alt="technology_icon"
-          />
-        )}
-        {props.skill == "soft" && <div>{props.skillName}</div>}
+    <Tooltip showArrow={true} content={props.skillName} className="text-darkmode-text bg-darkmode-light-blue rounded-xl">
+      <div className="w-32 h-32 bg-darkmode-primary rounded-2xl border-4 border-darkmode-accent hover:border-darkmode-secondary flex justify-center items-center lg:w-44 lg:h-44">
+        <div className="flex flex-col items-center">
+          {props.skill == "tech" ? (
+            <img
+              className="w-20"
+              src={props.skillLogoPath}
+              alt="technology_icon"
+            />
+          ) : (
+            <img
+              className="w-8 relative "
+              src={props.skillLogoPath}
+              alt="technology_icon"
+            />
+          )}
+          {props.skill == "soft" && <div>{props.skillName}</div>}
+        </div>
       </div>
-    </div>
+    </Tooltip>
   );
 };

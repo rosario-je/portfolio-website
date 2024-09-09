@@ -29,7 +29,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = (props) => {
       </div>
       <div className="lg:w-full lg:px-5">
         <div className="right-side flex flex-col py-4">
-          <h1 className="text-center font-opensans font-bold text-7xl lg:text-left">
+          <h1 className="text-center font-opensans font-bold text-7xl lg:text-left text-darkmode-text">
             {props.project.id}
           </h1>
           <h2 className="text-center font-opensans font-bold text-4xl text-darkmode-light-blue lg:text-left">
@@ -38,12 +38,12 @@ export const ProjectCard: React.FC<ProjectCardProps> = (props) => {
           <h3 className="text-center font-opensans text-darkmode-primary pb-2 lg:text-left">
             {props.project.projectSubtitle}
           </h3>
-          <p className="font-opensans font-light ">
+          <p className="font-opensans font-light text-darkmode-text">
             {props.project.projectDesc}
           </p>
         </div>
         <div className="tech-stack pt-3 flex flex-wrap justify-center gap-x-5  border-t-[1px] border-t-darkmode-primary flex-col items-center">
-          <div className="flex flex-row gap-x-5 pb-5 ">
+          <div className="flex flex-row gap-x-5 pb-5 text-darkmode-text">
             {props.project.techStack.map((tech) => {
               return <span key={tech}>{tech}</span>;
             })}

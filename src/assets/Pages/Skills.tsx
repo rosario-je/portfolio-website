@@ -12,7 +12,7 @@ export const Skills = () => {
 
   return (
     <section className="skills-section h-screen flex flex-col justify-center min-h-screen" id="skills">
-      <div className="buttons flex justify-around mb-4">
+      <div className="buttons flex justify-around lg:mb-20">
         <button
           className={`btn btn-outline sticky w-1/3 ${
             currentSkills == "1" ? "bg-darkmode-accent" : "btn-info"
