@@ -13,7 +13,11 @@ interface SkillProps {
 //as a blueprint
 export const Skill: React.FC<SkillProps> = (props) => {
   return (
-    <Tooltip showArrow={true} content={props.skillName} className="text-darkmode-text bg-darkmode-light-blue rounded-xl">
+    <Tooltip
+      showArrow={true}
+      content={props.skillName}
+      className="text-darkmode-text bg-darkmode-light-blue rounded-xl"
+    >
       <div className="w-32 h-32 bg-darkmode-primary rounded-2xl border-4 border-darkmode-accent hover:border-darkmode-secondary flex justify-center items-center lg:w-44 lg:h-44">
         <div className="flex flex-col items-center">
           {props.skill == "tech" ? (
@@ -29,7 +33,9 @@ export const Skill: React.FC<SkillProps> = (props) => {
               alt="technology_icon"
             />
           )}
-          {props.skill == "soft" && <div className="text-darkmode-text">{props.skillName}</div>}
+          {props.skill == "soft" && (
+            <div className="text-darkmode-text">{props.skillName}</div>
+          )}
         </div>
       </div>
     </Tooltip>
