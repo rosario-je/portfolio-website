@@ -7,7 +7,7 @@ export const Projects = () => {
       <h1 className="font-opensans font-bold text-center text-darkmode-light-blue text-3xl pb-10">
         Some projects i have worked on:
       </h1>
-      <div className="projects flex flex-col gap-y-48">
+      <div className="projects flex flex-col gap-y-48 lg:pt-60 lg:gap-y-80">
         {projectsArray.map((project) => {
           return <ProjectCard key={project.id} project={project} />;
         })}
