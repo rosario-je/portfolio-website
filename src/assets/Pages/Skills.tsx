@@ -32,7 +32,7 @@ export const Skills = () => {
           <span className="text-darkmode-text">Soft Skills</span>
         </button>
       </div>
-      <div className="skills grid grid-cols-2 justify-items-center h-4/6">
+      <div className={`skills grid grid-cols-2 justify-items-center h-4/6 ${(currentSkills == "1" ? "lg:grid-cols-4" : "lg:grid-cols-3")} `}>
         {(currentSkills === "1" ? technicalSkills : softSkills).map(
           (skill: any) => {
             return (
