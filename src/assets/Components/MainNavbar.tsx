@@ -33,7 +33,7 @@ export default function MainNavbar() {
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden lg:flex gap-4" justify="center">
+      <NavbarContent className="hidden lg:flex gap-4 text-darkmode-text" justify="center">
         {menuItems.map((item) => (
           <NavbarItem key={item.name}>
             <Link color="foreground" href={item.href}>
@@ -54,7 +54,7 @@ export default function MainNavbar() {
                   ? "danger"
                   : "foreground"
               }
-              className="w-full"
+              className="w-full text-darkmode-text"
               href={item.href}
               size="lg"
             >
