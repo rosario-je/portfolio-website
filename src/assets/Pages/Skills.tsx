@@ -11,8 +11,8 @@ export const Skills = () => {
   };
 
   return (
-    <section className="skills-section h-screen flex flex-col justify-center min-h-screen" id="skills">
-      <div className="buttons flex justify-around lg:mb-20">
+    <section className="skills-section flex flex-col justify-center min-h-screen my-40" id="skills">
+      <div className="buttons flex justify-around pb-5 lg:mb-20">
         <button
           className={`btn btn-outline sticky w-1/3 ${
             currentSkills == "1" ? "bg-darkmode-accent" : "btn-info"
@@ -32,7 +32,7 @@ export const Skills = () => {
           <span className="text-darkmode-text">Soft Skills</span>
         </button>
       </div>
-      <div className={`skills grid grid-cols-2 justify-items-center h-4/6 ${(currentSkills == "1" ? "lg:grid-cols-4" : "lg:grid-cols-3")} `}>
+      <div className={`skills grid grid-cols-2 justify-items-center h-4/6 gap-y-4 lg:gap-y-28 ${(currentSkills == "1" ? "lg:grid-cols-4" : "lg:grid-cols-3")} `}>
         {(currentSkills === "1" ? technicalSkills : softSkills).map(
           (skill: any) => {
             return (
