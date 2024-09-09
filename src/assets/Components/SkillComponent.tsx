@@ -13,7 +13,7 @@ interface SkillProps {
 export const Skill: React.FC<SkillProps> = (props) => {
   return (
     <div
-      className="tooltip tooltip-top w-32 h-32 bg-darkmode-primary rounded-2xl border-4 border-darkmode-accent hover:border-darkmode-secondary flex justify-center items-center"
+      className="tooltip tooltip-top w-32 h-32 bg-darkmode-primary rounded-2xl border-4 border-darkmode-accent hover:border-darkmode-secondary flex justify-center items-center lg:w-44 lg:h-44"
       data-tip={props.skillName}
     >
       <div className="flex flex-col items-center">
