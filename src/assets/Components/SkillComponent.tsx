@@ -29,7 +29,7 @@ export const Skill: React.FC<SkillProps> = (props) => {
               alt="technology_icon"
             />
           )}
-          {props.skill == "soft" && <div>{props.skillName}</div>}
+          {props.skill == "soft" && <div className="text-darkmode-text">{props.skillName}</div>}
         </div>
       </div>
     </Tooltip>
