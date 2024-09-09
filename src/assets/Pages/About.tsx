@@ -7,8 +7,8 @@ library.add(faGithub, faLinkedin, faEnvelope);
 
 export const About = () => {
   return (
-    <div>
-      <div className="about-info flex flex-col justify-center lg:h-screen">
+    <div id="about">
+      <div className="about-info flex flex-col justify-center lg:h-screen min-h-screen" >
         <div className="about-info-details">
           <h2 className="text-darkmode-accent font-bold font-opensans text-center text-[40px] lg:text-start">
             About me
