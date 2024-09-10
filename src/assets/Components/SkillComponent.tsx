@@ -34,7 +34,7 @@ export const Skill: React.FC<SkillProps> = (props) => {
             />
           )}
           {props.skill == "soft" && (
-            <div className="text-darkmode-text">{props.skillName}</div>
+            <div className="text-darkmode-text text-center">{props.skillName}</div>
           )}
         </div>
       </div>
