@@ -2,7 +2,7 @@ export const Landing = () => {
   return (
     <div id="home" className="min-h-screen">
       <div className="landing-info flex flex-col-reverse lg:flex-row pb-20 h-screen justify-center gap-y-10 lg:items-center">
-        <header className="personal-intro flex flex-col">
+        <header className="personal-intro flex flex-col lg:w-2/3">
           <p className="text-darkmode-text font-opensans font-light text-center lg:text-start">
             Hi, my name is
           </p>
@@ -13,7 +13,7 @@ export const Landing = () => {
             I am a{" "}
             <span className="text-darkmode-accent">Software Developer</span>
           </h2>
-          <p className="text-darkmode-text font-light font-opensans pt-5 text-center lg:text-start lg:w-9/12">
+          <p className="text-darkmode-text font-light font-opensans pt-5 text-center lg:text-start xl:w-9/12">
             I thrive on crafting software solutions from ideation to execution.
             From envisioning innovative concepts to building user-focused
             products, I use the latest technologies to deliver impactful
